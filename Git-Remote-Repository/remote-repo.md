@@ -94,9 +94,7 @@ git remote add origin git@github.com:Bathalapalli-SaiRangaPavan/Git-GitHub.git
   ```
   cat /root/.ssh/id_rsa.pub
   ```
-  
 - copy the public key 
-  
 - Go to your Github account 
 - Click on (Profile)
 - Click on (Settings) 
@@ -109,12 +107,9 @@ git remote add origin git@github.com:Bathalapalli-SaiRangaPavan/Git-GitHub.git
 git push -u origin master 
 ```
 - Now u can see it pushed ur files from Local to Remote Repository/Origin
-
 - We can omit origin and -u master parameters from the git push command with following two git configuration changes. 
-  
 - git config remote.pushdefault origin 
 - git config push.default current
-
 - The first setting saves you from typing origin everytime. 
 - With the second setting, git assumes that the remote branch on the github side will have the same name as your local branch.
   
