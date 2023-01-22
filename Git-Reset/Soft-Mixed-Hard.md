@@ -321,7 +321,6 @@ You can see 2nd commit sub of commit is removed including the def sub(a,b) delet
 - git reset --soft A : Branch head is now pointing at A. Staging will contain all of the files that were committed in B,C,D
 - git reset --mixed A: Branch head is now pointing at A. All of the files that were committed in B,C,D are now in working area. 
 - git reset --hard A: Branch head is now pointing at A. All of the files that were committed are deleted off.
-- 
 
 
 
